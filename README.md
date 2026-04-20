@@ -1,18 +1,19 @@
 # 🎵 RapUS API --- API REST MongoDB (Rap Américain)
 
-::: {align="center"}
-`<img src="https://img.shields.io/badge/Node.js-20-339933?logo=node.js&logoColor=white" />`{=html}
-`<img src="https://img.shields.io/badge/Express-4-000000?logo=express&logoColor=white" />`{=html}
-`<img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white" />`{=html}
-`<img src="https://img.shields.io/badge/CORS-enabled-blue" />`{=html}
-`<img src="https://img.shields.io/badge/Dotenv-secure-yellow" />`{=html}
+<div align="center">
 
-`<br/>`{=html}
+<img src="https://img.shields.io/badge/Node.js-20-339933?logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-4-000000?logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/CORS-enabled-blue" />
+<img src="https://img.shields.io/badge/Dotenv-secure-yellow" />
 
-Mini projet réalisé dans le cadre d'un TP MongoDB.\
-Objectif : concevoir une API REST permettant de gérer et rechercher des
-artistes de rap américain.
-:::
+<br/>
+
+Mini projet réalisé dans le cadre d'un TP MongoDB.  
+Objectif : concevoir une API REST permettant de gérer et rechercher des artistes de rap américain.
+
+</div>
 
 ------------------------------------------------------------------------
 
