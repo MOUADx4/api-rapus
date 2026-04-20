@@ -132,4 +132,6 @@ curl http://localhost:3000/items
 
 ## 👤 Auteur
 
+Mouad BOUNOKRA
+
 Projet MongoDB --- 2026
