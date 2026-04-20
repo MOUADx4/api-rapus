@@ -10,7 +10,7 @@
 
 <br/>
 
-Mini projet réalisé dans le cadre d'un TP MongoDB.  
+Projet réalisé dans le cadre d'un TP MongoDB.  
 Objectif : concevoir une API REST permettant de gérer et rechercher des artistes de rap américain.
 
 </div>
