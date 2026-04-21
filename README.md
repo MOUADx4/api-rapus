@@ -17,7 +17,7 @@ Objectif : concevoir une API REST permettant de gérer et rechercher des artiste
 
 ------------------------------------------------------------------------
 
-## 📌 Présentation
+## Présentation
 
 RapUS API est une API REST permettant de :
 
@@ -27,14 +27,14 @@ RapUS API est une API REST permettant de :
 
 ------------------------------------------------------------------------
 
-## 🎯 Thème
+## Thème
 
 -   Rap américain\
 -   Entité principale : Artist
 
 ------------------------------------------------------------------------
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 -   Création d'artistes\
 -   Liste des artistes\
@@ -44,7 +44,7 @@ RapUS API est une API REST permettant de :
 
 ------------------------------------------------------------------------
 
-## 🧱 Stack technique
+## Stack technique
 
 -   Node.js\
 -   Express\
@@ -55,7 +55,7 @@ RapUS API est une API REST permettant de :
 
 ------------------------------------------------------------------------
 
-## ⚙️ Installation
+## Installation
 
 ``` bash
 git clone <repo-url>
@@ -71,7 +71,7 @@ MONGO_URI="votre_uri_mongodb"
 
 ------------------------------------------------------------------------
 
-## 🚀 Lancement
+## Lancement
 
 ``` bash
 node server.js
@@ -81,14 +81,14 @@ API disponible sur : http://localhost:3000
 
 ------------------------------------------------------------------------
 
-## 🗄️ Base de données
+## Base de données
 
 -   Base : rapus\
 -   Collection : artists
 
 ------------------------------------------------------------------------
 
-## 🧩 Endpoints
+## Endpoints
 
 ### POST /items
 
@@ -113,7 +113,7 @@ Exemples :
 
 ------------------------------------------------------------------------
 
-## 🧪 Tests cURL
+## Tests cURL
 
 ``` bash
 curl http://localhost:3000/items
@@ -121,7 +121,7 @@ curl http://localhost:3000/items
 
 ------------------------------------------------------------------------
 
-## ✔ Objectifs
+## Objectifs
 
 -   CRUD partiel\
 -   Recherche MongoDB avec \$regex\
@@ -130,7 +130,7 @@ curl http://localhost:3000/items
 
 ------------------------------------------------------------------------
 
-## 👤 Auteur
+## Auteur
 
 Mouad BOUNOKRA
 
