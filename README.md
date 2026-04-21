@@ -1,4 +1,4 @@
-# 🎵 RapUS API --- API REST MongoDB (Rap Américain)
+# RapUS API --- API REST MongoDB (Rap Américain)
 
 <div align="center">
 
