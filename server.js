@@ -1,4 +1,4 @@
-require("dotenv").config(); // charge le fichier .env
+require("dotenv").config(); 
 
 const express = require("express");
 const { MongoClient, ObjectId } = require("mongodb");
@@ -8,9 +8,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// ---------------------------
+
 // login MongoDB
-// ---------------------------
 const uri = process.env.MONGO_URI;
 const client = new MongoClient(uri);
 
@@ -28,9 +27,8 @@ async function connectDB() {
 
 connectDB();
 
-// ---------------------------
 // ROUTES CRUD
-// ---------------------------
+
 
 // CREATE : POST /items
 app.post("/items", async (req, res) => {
@@ -52,9 +50,8 @@ app.get("/items/:id", async (req, res) => {
   res.send(item);
 });
 
-// ---------------------------
 // ROUTE DE RECHERCHE
-// ---------------------------
+
 // GET /search?keyword=...&style=...
 app.get("/search", async (req, res) => {
   const { keyword, style } = req.query;
@@ -74,9 +71,8 @@ app.get("/search", async (req, res) => {
   res.send(results);
 });
 
-// ---------------------------
-// LANCER LE SERVEUR
-// ---------------------------
+// SERVEURÒ
+
 app.listen(3000, () => {
   console.log("API Rap US en marche sur http://localhost:3000");
 });
